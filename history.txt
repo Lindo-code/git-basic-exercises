@@ -1,0 +1,178 @@
+    1  pkg upgrade && pkg update
+    2  mkdir Terminal
+    3  cd Terminal/
+    4  pkg upgrade && pkg update
+    5  apt upgrade && apt update
+    6  pkg install python && pkg install nodejs && pkg install vim
+    7  vim
+    8  nodejs -version
+    9  nodejs --version
+   10  ls
+   11  cd ..
+   12  ls
+   13  cd downloads/
+   14  vim style.css 
+   15  cd ..
+   16  cd webdev/
+   17  cs Ch03
+   18  cd Ch03/
+   19  vim index.html 
+   20  cd ..
+   21  cd downloads/
+   22  vim style.css 
+   23  cd ..
+   24  cd webdev/
+   25  cd Ch03/
+   26  vim index.html 
+   27  cd ..
+   28  ls
+   29  mkdir Html
+   30  cd Html/
+   31  touch template.html
+   32  vim template.html 
+   33  mkdir webdev
+   34  cd ..
+   35  mkdir webdev
+   36  cd webdev/
+   37  mkdir Ch01
+   38  cd Ch01/
+   39  ls
+   40  vim template.html 
+   41  cd..
+   42  cd ..
+   43  mkdir prac
+   44  cd prac/
+   45  touch test.html
+   46  vim test.html 
+   47  cd ..
+   48  ls
+   49  cd webdev
+   50  cd Ch01/
+   51  ls
+   52  cd ..
+   53  mkdir Ch01
+   54  mkdir Ch02
+   55  ls
+   56  cd Ch02
+   57  ls
+   58  vim template.html 
+   59  ls
+   60  vim index.html 
+   61  ls
+   62  vim page-2.html 
+   63  vim index.html 
+   64  vim page-2.html 
+   65  vim index.html 
+   66  vim page-2.html 
+   67  cd ..
+   68  mkdir Ch03
+   69  cd Ch03
+   70  vim index.html 
+   71  vim page-2.html 
+   72  vim index.html 
+   73  vim page-2.html 
+   74  touch style.css
+   75  vim style.css 
+   76  cd storage/
+   77  ls
+   78  cd shared/
+   79  cd code/
+   80  ls
+   81  rm -i Num.js 
+   82  ls
+   83  rm -i Num.js 
+   84  ls
+   85  touch test.md
+   86  ls
+   87  git init
+   88  git add
+   89  git add .
+   90  ls
+   91  git commit -m "test"
+   92  git config --global user.email "sdrowvieli@gmail.com"
+   93  git config --global user.name "Lindo-code"
+   94  git commit -m "test"
+   95  git status
+   96  ls
+   97  cd
+   98  mkdir git-basic-exercises
+   99  cd git-basic-exercises/
+  100  ls
+  101  clear
+  102  ls -a
+  103  git init
+  104  ls -a
+  105  git status
+  106  touch README.md
+  107  ls -a
+  108  git status
+  109  git log
+  110  git add README.md 
+  111  git status
+  112  git rm --cached <README.md>
+  113  git rm --cached README.md 
+  114  git status
+  115  git add README.md 
+  116  git sratus
+  117  git status
+  118  git commit -m "initial commit"
+  119  git log
+  120  q
+  121  ls -a
+  122  git log
+  123  vim README.md 
+  124  git status
+  125  git add README.md 
+  126  git status
+  127  git commit -m "created a grocery list and added 5 items"
+  128  git log
+  129  vim README.md 
+  130  git status
+  131  git add README.md 
+  132  git status
+  133  git commit -m "third commit"
+  134  git log
+  135  git checkout commit 1711c8013008266bd165edeee7c634ce0721e27c
+  136  git checkout 1711c8013008266bd165edeee7c634ce0721e27c
+  137  git checkout1711c8013008266bd165edeee7c634ce0721e27c
+  138  clear
+  139  git log
+  140  git status
+  141  ls -a
+  142  git status
+  143  git branch -a
+  144  git checkout master
+  145  git log
+  146  git checkout1711c8013008266bd165edeee7c634ce0721e27c
+  147  git status
+  148  git checkout 1711c8013008266bd165edeee7c634ce0721e27c
+  149  cat README.md 
+  150  git checkout main
+  151  git status
+  152  git checkout master
+  153  ls -a
+  154  cat README.md 
+  155  git branch
+  156  git branch milkshake-flavours
+  157  gi branch
+  158  git branch
+  159  git branch milkshake-flavours
+  160  git checkout milkshake-flavours
+  161  git branch
+  162  ls -a
+  163  touch milkshakes.md
+  164  vim milkshakes.md 
+  165  ls -a
+  166  git status
+  167  git commit -m "added initial flavours"
+  168  git add milkshakes.md 
+  169  git status
+  170  git commit -m "added initial flavours"
+  171  git log
+  172  git checkout master
+  173  ls -a
+  174  git branch history
+  175  git checkout history
+  176  git log
+  177  git branch
+  178  history > history.txt
