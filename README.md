@@ -7,4 +7,3 @@ Grocery list
 5. Butter
 6. Peanut butter
 7. Frozen vegetables
-8. Dog food
