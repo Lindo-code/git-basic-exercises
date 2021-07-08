@@ -6,3 +6,5 @@ Grocery list
 4. Polony
 5. Butter
 6. Peanut butter
+7. Frozen vegetables
+8. Dog food
